@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        video {
+            max-width: 100%;
+            max-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- controls zeigt Play, Pause und Lautstärke an -->
+    <!-- playsinline verhindert, dass Mobilgeräte das Video im Vollbild-Zwang öffnen -->
+    <video controls playsinline>
+        <source src="Wall-E.mp4" type="video/mp4">
+        Ihr Browser unterstützt dieses Videoformat nicht.
+    </video>
+
+</body>
+</html>
